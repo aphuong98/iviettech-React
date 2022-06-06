@@ -1,0 +1,49 @@
+.selectList {
+  display: flex;
+  width: 86%;
+  justify-content: end;
+  margin-right: 20px;
+}
+.listTask {
+  display: flex;
+  border-bottom: 3px solid #726060;;
+  width: 90%;
+  margin-left: 40px;
+  margin-block: 10px;;
+}
+.content {
+  width: 50%;
+  margin-left: 40px;
+}
+.content:hover{
+  font-size: 20px;
+}
+.selectTask {
+  border: none;
+  background: white;
+  color: green;
+  font-size: 20px;
+}
+
+.icon-sucess{
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.icon-delete{
+  transition: all 0.5s ease;
+  cursor: pointer;
+}
+.icon-delete:hover{
+  font-size:35px ;
+}
+.icon-sucess:hover{
+  font-size: 35px;
+}
+
+.deleteTask{
+  border: none;
+  background: white;
+  color: red;
+  font-size: 20px;
+}
+

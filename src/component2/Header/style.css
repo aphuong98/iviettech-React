@@ -1,0 +1,29 @@
+.addTask {
+  text-align: center;
+  border-bottom: 3px black solid;
+ 
+  padding-block: 20px;
+}
+.input {
+  width: 450px;
+  border-radius: 50px;
+  border-color: aqua;
+  height: 40px;
+}
+.input:hover{
+  font-size: 30px;
+}
+.buttonPlus {
+  margin-left: 20px;
+  border-radius: 50%;
+  height: 40px;
+  width: 35px;
+  cursor: pointer;
+  color: #2bf990;
+  border: none;
+  background: black;
+}
+.buttonPlus:hover{
+  font-size: 30px;
+  
+}
